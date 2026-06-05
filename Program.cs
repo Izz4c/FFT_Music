@@ -64,8 +64,8 @@ class Program
         for(int k = 0; k < N / 2; k++) 
         {
             Complex t = Complex.FromPolarCoordinates(1, -6.283185307179586 * k / N) * odd[k];
-            result[k]         = even[k] + t;    // bottom half of samples
-            result[k + N / 2] = even[k] - t;    // top half of samples 
+            result[k]         = even[k] + t;    // bottom half of frequency domain
+            result[k + N / 2] = even[k] - t;    // top half of frequency domain
                                                 //(this is the symmetry we exploit that gets us nlogn complexity)
         }
         return result;
