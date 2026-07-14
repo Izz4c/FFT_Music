@@ -11,4 +11,4 @@ Click [here](https://github.com/Izz4c/FFT_Music/releases/latest/) to find the la
 4) Press enter while playing/humming the tone to your microphone (multiple times if you wish)
 5) Press Q to stop
 
-There are other features in this program too like converting notes from one scale to another (Harmonize option), generating scales with a root note, and displaying all the frequencies audible to the mic.
+There are other features in this program too, like converting notes from one scale to another (Harmonize option), generating scales with a root note, and displaying all the frequencies audible to the mic.
